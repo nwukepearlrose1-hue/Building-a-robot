@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Pearl <nwukepearlrose1@gmail.com>"]
+channels = ["conda-forge"]
+name = "gazebo-jetty"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+libgz-sim = "10.*"
